@@ -6,7 +6,7 @@ import { SpaceApp } from "./SpaceApp";
 export default function App() {
   // SET YOUR OWN PUBLISHABLE KEY HERE!!
   // const PUBLISHABLE_KEY = "pk_123456";
-  const PUBLISHABLE_KEY = undefined;
+  const PUBLISHABLE_KEY = 'pk_1cccfb4958e14db59c35a0f0fd016aa8';
   if (PUBLISHABLE_KEY === undefined) {
     return <CheckPublishableKey />;
   } else {
